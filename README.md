@@ -13,9 +13,11 @@ Your task is to implement simple CRUD API using a simple in-memory data structur
        5. **DELETE** _/books/:id_: This route should allow users to delete a specific book identified by its ID.
 
 - The book details should include the following attributes.
-  - _id_ - unique identifier (string) generated on server side
+  - _id_ - unique identifier (uuid, **required**) generated on server side
   - _title_ - book's title (string, **required**)
   - _author_ - book's auther name (string, **required**)
+  - _price_ - book's price (int, **required**)
+  - _category_ - book's category (_array_ of _strings_, **required**) 
   - _publication_year_ - date and year of the book's publicaiton (date, **required**)
 
 
