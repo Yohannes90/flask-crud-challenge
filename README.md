@@ -12,5 +12,8 @@ Your task is to implement simple CRUD API using a simple in-memory data structur
   4. **PUT** _/books/:id_: This route should allow users to update the details of a specific book identified by its ID.
   5. **DELETE** _/books/:id_: This route should allow users to delete a specific book identified by its ID.
 
-
-  The book details should include attributes like title, author, and publication year.
+  The book details should include the following attributes.
+  1.  _id_ - unique identifier (string) generated on server side
+  2.  _title_ - book's title (string, **required**)
+  3.  _author_ - book's auther name (string, **required**)
+  4.  _publication_year_ - date and year of the book's publicaiton (date, **required**)  
